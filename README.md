@@ -1,1 +1,3 @@
-programs in c,c++ .
+# Basic Code 
+***
+**In this repository i upload my basic c++/c projects , programs.**
