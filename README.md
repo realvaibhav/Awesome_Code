@@ -1,3 +1,3 @@
-# Basic Code 
+# freetime error
 ***
-**In this repository i upload my basic c++/c programs.**
+** A repository that contains basic (C&&C++) programs**
