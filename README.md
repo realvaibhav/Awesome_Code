@@ -1,3 +1,3 @@
 # freetime error
 
-**A repository that contains basic (C&&C++) programs**
+**A repository that contains basic C and C++ programs**
