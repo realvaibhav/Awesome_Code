@@ -16,7 +16,7 @@ int main()
         }
         
     }
-    if ((count==0)&&(n!=1))
+    if ((count==0)&&(n!=1))  // 1 is neither prime nor composite
     {
         cout << "It's a prime number" << endl ;
     }
