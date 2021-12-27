@@ -7,7 +7,7 @@ int main()
     int n ;
     cin >> n ;
     int num1=0 , num2=0 ;
-    for(int i=1 ; i<=sqrt(n) ; i++) // time complexity is just O(√n)
+    for(int i=1 ; i<=sqrt(n) ; i++) 
     {
         if(n%i==0)
         {

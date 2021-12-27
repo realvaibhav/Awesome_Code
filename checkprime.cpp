@@ -6,26 +6,38 @@ typedef long long int ll ;
 
 int main()
 {
-    int n , count=0 ;
+    int n ;
     cin >> n ;
-    for (int i = 2; i <=sqrt(n); i++)
+    
+
+    if(n<=1)
     {
-        if (n%i==0)
-        {
-            count++ ;
-        }
-        
+        cout << "not a prime number" << endl ;
+        return 0 ;
     }
-    if ((count==0)&&(n!=1))  // 1 is neither prime nor composite
-    {
-        cout << "It's a prime number" << endl ;
-    }
-    else
+
+
+    if(n%2==0)
     {
         cout << "It's not a prime number" << endl ;
     }
-    
-    
+    else if(n%3==0)
+    {
+        cout << "It's not a prime number" << endl ;
+    }
+    else
+    {
+        for(int i=5 ; i<=sqrt(n) ; i=i+6)
+        {
+            if(n%i==0 || n%(i+2)==0)
+            {
+                cout << "It's not a prime number" << endl ;
+                return 0 ;
+            }
+        }
+
+        cout << "It's a prime number" << endl ;
+    }
 
     return 0;
 }
